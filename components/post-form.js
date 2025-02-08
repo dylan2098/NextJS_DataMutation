@@ -31,9 +31,9 @@ export default function PostForm({ action }) {
           <textarea id="content" name="content" rows="5" />
           {/* <textarea id="content" name="content" rows="5" required /> */}
         </p>
-        <p className="form-actions">
+        <span className="form-actions">
           <FormSumbit />
-        </p>
+        </span>
         {state.errors && (
           <ul className="form-errors">
             {state.errors.map((error) => (
